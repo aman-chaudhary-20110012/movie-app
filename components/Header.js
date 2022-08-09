@@ -4,7 +4,7 @@ import { HomeIcon, UserIcon, PhoneIcon, InformationCircleIcon } from "@heroicons
 
 export default function Header() {
   return (
-    <div className="bg-gray-700 text-gray-200 flex flex-col items-center p-6 select-none sm:flex-row justify-between">
+    <div className="bg-stone-900 text-gray-200 flex flex-col items-center p-3 select-none sm:flex-row justify-between">
       <div className="flex">
         <HeaderIcon Icon={HomeIcon} title="HOME" />
         <HeaderIcon Icon={UserIcon} title="ACCOUNT" />
